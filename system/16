@@ -1,0 +1,20 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    16                                                 :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: akrushin <marvin@42.fr>                    +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2018/10/13 22:39:30 by akrushin          #+#    #+#              #
+#    Updated: 2018/10/13 22:39:32 by akrushin         ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+# Find the service which makes it possible to run specific tasks following a 
+# regular schedule
+
+crontab
+
+# or
+
+man cron

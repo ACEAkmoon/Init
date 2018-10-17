@@ -1,0 +1,21 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    03                                                 :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: akrushin <marvin@42.fr>                    +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2018/10/13 22:37:35 by akrushin          #+#    #+#              #
+#    Updated: 2018/10/13 22:37:36 by akrushin         ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+# Write a script which displays the list of files from the folder given as 
+# parameter, sorted by size
+
+
+if [ -d $folder ]; then
+	ls -lRSh $folder | grep ^-
+else
+	echo "Error"
+fi

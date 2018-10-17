@@ -1,0 +1,19 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    02                                                 :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: akrushin <marvin@42.fr>                    +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2018/10/13 22:37:13 by akrushin          #+#    #+#              #
+#    Updated: 2018/10/13 22:37:16 by akrushin         ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+# Identify and display the Ethernet interface characteristics
+
+# Only IP Ethernet
+ipconfig getifaddr en0
+
+# All info Ethernet
+networksetup -getinfo Ethernet

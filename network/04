@@ -1,0 +1,19 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    04                                                 :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: akrushin <marvin@42.fr>                    +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2018/10/13 22:37:51 by akrushin          #+#    #+#              #
+#    Updated: 2018/10/13 22:37:52 by akrushin         ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+# Identifiy the default gateway in the routing table
+
+# Only Default
+netstat -nr | awk '/default/{print $2}'
+
+# All info Default
+route get default

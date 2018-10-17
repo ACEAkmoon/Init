@@ -1,0 +1,22 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    06                                                 :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: akrushin <marvin@42.fr>                    +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2018/10/13 22:38:07 by akrushin          #+#    #+#              #
+#    Updated: 2018/10/13 22:38:10 by akrushin         ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+# Get the complete path of the file that contains the IP address of the DNS 
+# server you’re using
+
+cat /etc/resolv.conf
+
+# or
+
+cat /var/run/resolv.conf
+
+# used cat or less

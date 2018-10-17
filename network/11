@@ -1,0 +1,17 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    11                                                 :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: akrushin <marvin@42.fr>                    +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2018/10/13 22:38:55 by akrushin          #+#    #+#              #
+#    Updated: 2018/10/13 22:38:57 by akrushin         ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+# Use the output of the previous command to find the name and IP address of the
+device that makes the link between you (local network) and the outside world
+
+
+name and IP address is 10.111.254.254
